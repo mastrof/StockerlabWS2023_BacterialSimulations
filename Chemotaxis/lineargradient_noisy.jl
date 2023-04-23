@@ -52,7 +52,7 @@ end
 # n bacteria with noisy sensing
 for i in 1:n
     pos = (0.0, rand(model.rng)*Ly)
-    chemotactic_precision = 60
+    chemotactic_precision = 6
     add_agent!(pos, model; chemotactic_precision)
 end
 ##
