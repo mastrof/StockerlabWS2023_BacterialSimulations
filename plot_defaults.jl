@@ -1,4 +1,3 @@
-using Plots; Plots.plotlyjs()
 Plots.default(
     thickness_scaling=1.5, grid=false, frame=:border,
     linewidth=1.5,

@@ -1,6 +1,6 @@
 ##
 using MicrobeAgents, DataFrames, Random
-using Plots
+using Plots; Plots.plotlyjs()
 include("../plot_defaults.jl")
 # initialize a random numbre generator for reproducibility
 rng = MersenneTwister(45)
