@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "b8c0c6f66c909f97c02ab48761d5353971d5d677"
+project_hash = "ded2d1a7014cd42ed21b85a5db7a1990c81276ea"
 
 [[deps.AbstractFFTs]]
 deps = ["ChainRulesCore", "LinearAlgebra"]
@@ -66,6 +66,12 @@ deps = ["Base64", "BinDeps", "Distributed", "JSExpr", "JSON", "Lazy", "Logging",
 git-tree-sha1 = "08d0b679fd7caa49e2bca9214b131289e19808c0"
 uuid = "ad839575-38b3-5650-b840-f874b8c74a25"
 version = "0.12.5"
+
+[[deps.BubbleBath]]
+deps = ["LinearAlgebra"]
+git-tree-sha1 = "d850f1ee849cb65379c09869000f0b5036caab90"
+uuid = "06490a66-c478-4593-a275-4b14021bccc5"
+version = "0.2.0"
 
 [[deps.Bzip2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
